@@ -91,7 +91,7 @@ class PrivatePerson {
 let person5 = new PrivatePerson("Brais", 37, "MoureDev", "IBAN123456789")
 
 // No podemos acceder
-// console.log(person5.bank) 
+// console.log(person5.bank)
 // person5.bank = "new IBAN123456789" // bank no es #bank
 
 console.log(person5)
@@ -122,13 +122,13 @@ class GetSetPerson {
 
 }
 
-person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
+let person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
 
 console.log(person6)
 console.log(person6.name)
 
 person6.bank = "new IBAN123456789"
-
+console.log(person6)
 /*
 Clase 38 - Herencia de clases
 Vídeo: https://youtu.be/1glVfFxj8a4?t=17999
@@ -143,7 +143,7 @@ class Animal {
     }
 
     sound() {
-        console.log("El animal emite un sonido genérico")
+        console.log(`El ${this.name} emite un sonido genérico`)
     }
 
 }
