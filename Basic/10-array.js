@@ -45,6 +45,7 @@ myArray = []
 myArray[2] = "Brais"
 // myArray[0] = "Moure"
 myArray[1] = "mouredev"
+myArray[4] = "papu"
 
 console.log(myArray)
 
@@ -68,10 +69,10 @@ console.log(myArray)
 
 // shift y unshift
 
-console.log(myArray.shift())
+console.log(myArray.shift()) //Elimina el primero y lo devuelve
 console.log(myArray)
 
-myArray.unshift("Brais", "mouredev")
+myArray.unshift("Brais", "mouredev") //Añade desde el principio
 console.log(myArray)
 
 // length

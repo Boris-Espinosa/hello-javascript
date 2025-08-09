@@ -50,7 +50,7 @@ let person2 = {
     name: "Brais",
     age: 37,
     alias: "MoureDev",
-    walk: function () {
+    walk: () => {
         console.log("La persona camina.")
     }
 }
@@ -69,7 +69,7 @@ let person3 = {
         name: "Programador",
         exp: 15,
         work: function () {
-            console.log(`La persona de ${this.age} años de experiencia trabaja.`)
+            console.log(`La persona de ${this.exp} años de experiencia trabaja.`)
         }
     }
 }
