@@ -33,7 +33,7 @@ try {
 // finally
 
 try {
-    console.log(myObject.email)
+    console.log(myObject)
 } catch (error) {
     console.log("Se ha producido un error:", error.message)
 } finally {
@@ -52,6 +52,7 @@ try {
 // throw
 
 // throw new Error("Se ha producido un error")
+
 
 function sumIntegers(a, b) {
     if (typeof a !== "number" || typeof b !== "number") {

@@ -75,7 +75,7 @@ console.log(result)
 
 // Funciones anidadas
 
-function extern() {
+export function extern() {
     console.log("Función externa")
     function intern() {
         console.log("Función interna")

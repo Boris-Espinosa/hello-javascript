@@ -20,6 +20,20 @@ export let name = "MoureDev"
 
 // Clases
 
+export class Person {
+    constructor(name, age, alias) {
+        this.name = name,
+        this.alias = alias,
+        this.age = age
+    }
+    sayAge() {
+        console.log(`Esta persona tiene ${this.age} años`)
+    }
+    sayName() {
+        console.log(`Esta persona se llama ${this.name}`)
+    }
+}
+
 export class Circle {
 
     constructor(radius) {
